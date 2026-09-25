@@ -38,6 +38,14 @@ int main()
     int count=sizeof(a1)/sizeof(a1[0]);
     printf("count=%d\n",count);
     
+
+    //字符串
+    char str[] = "Hello, World!";
+    printf("字符串长度: %zu\n", strlen(str));
+    char s[]="abc123";
+    char *p=strstr(s,"123");
+    printf("%c",*p);
+
     return 0;
 };
    
