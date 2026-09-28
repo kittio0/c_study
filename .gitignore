@@ -53,3 +53,10 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# VS Code 编辑器配置（本机个性化，不同步）
+.vscode/
+
+# 编译输出与程序运行产生的中间目录
+output/
+
